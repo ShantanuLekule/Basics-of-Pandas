@@ -1,0 +1,66 @@
+1 ........ Why Pandas?:
+
+ 1. Most important tool in data analysis and data science.
+ 2. Handles large amount of data.
+ 3. data cleaning/preparation.
+
+# Data Structures of Pandas:
+
+2 ........ 
+
+  - data structures:
+	1. Series
+		- series is a one dimensional data structure.list, array, vector
+	2. Data Frame
+		- Data Frame is two dimensional data structure. data in the form rows and columns.
+		- Also called collection of series.
+	3. panel
+		- three dimensional data structure.
+
+# Basic Attributes of Pandas:
+
+  1. shape: 
+	- to know dimensions of data. df.shape
+  2. columns:
+	- to get column names.df.columns
+  3. dtypes:
+	- to know data types of all the feature.df.dtypes
+  4. values:
+	- to get array representation of feature. df['feature'].values
+
+# Basic Functions in Pandas:
+
+  1. head():
+	- to get overview of data frame. first 5 rows.
+  2. value_count():
+	- returns frequecy table of any categorical feature.
+  3. Describe():
+	- to get descriptive statistic of numeric data.
+  4. missing values:
+	1. deletion: if the data is missing we can delete whole rows.
+	2. Imputation: we can put any values in missing place.
+  5. Type-casting:
+	- to convert one data type to other.
+  6. Adding and Deleting features:
+	- to add new feature. df['name'] = df['values']
+	- to drop feature. df.drop('name',axis = 1)
+# Some smart operations of Pandas:
+
+  1. filtering Data:
+	- to get the data of specific type matching our requirements.
+  2. Sort values:
+	-  sorting values in data frame.sort_values()
+  3. applying User-defined function on Series and Dataframe:
+
+# Creating Groups in Pandas:
+
+  1. Groupby in pandas:
+	- if want a dataframe of value of a feature then we can use groupby. 
+	1. Split: split data in various groups.
+	2. apply: apply a function of splited data.
+	3. combine: comnbine into a data structure.
+# Basic Plots of Pandas:
+
+  1. line plot
+  2. bar plot
+  3. pie plot
